@@ -48,7 +48,7 @@ export const proyectos = [
     tecnologias: ["React", "Express", "PostgreSQL", "Stripe", "JWT", "Vite"],
     repo: "https://github.com/appstoreway301/StoreApp",
     demo: "",
-    imagen: "",
+    imagen: "/storeapp.png",
     destacado: true,
   },
   {
@@ -58,7 +58,7 @@ export const proyectos = [
     tecnologias: ["Next.js", "TypeScript", "Prisma", "WebSockets", "Tailwind"],
     repo: "https://github.com/appstoreway301/classbland",
     demo: "", // link a la demo en vivo si la tienes
-    imagen: "", // ej: "/classbland.png"
+    imagen: "/classbland.svg",
     destacado: true,
   },
   {
@@ -68,7 +68,7 @@ export const proyectos = [
     tecnologias: ["Python", "Ollama", "Meta API", "Visión IA", "SQLite"],
     repo: "https://github.com/appstoreway301/chatbot-ia",
     demo: "",
-    imagen: "",
+    imagen: "/chatbot.svg",
     destacado: true,
   },
 ];

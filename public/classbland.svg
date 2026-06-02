@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ClassBland">
+  <defs>
+    <linearGradient id="cbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13131c"/>
+      <stop offset="0.55" stop-color="#1d1830"/>
+      <stop offset="1" stop-color="#2a2350"/>
+    </linearGradient>
+    <linearGradient id="cbCap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b8ef5"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <radialGradient id="cbGlow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="360" fill="url(#cbBg)"/>
+  <rect width="640" height="360" fill="url(#cbGlow)"/>
+
+  <!-- decorative dots -->
+  <g fill="#6366f1" opacity="0.18">
+    <circle cx="70" cy="70" r="4"/>
+    <circle cx="560" cy="90" r="5"/>
+    <circle cx="600" cy="280" r="4"/>
+    <circle cx="90" cy="300" r="5"/>
+    <circle cx="520" cy="300" r="3"/>
+  </g>
+
+  <!-- graduation cap -->
+  <g transform="translate(320 150)">
+    <!-- mortarboard top -->
+    <polygon points="0,-44 130,2 0,48 -130,2" fill="url(#cbCap)"/>
+    <polygon points="0,-44 130,2 0,18 -130,2" fill="#a5a7f8"/>
+    <!-- cap base -->
+    <path d="M -70 24 L 0 53 L 70 24 L 70 64 Q 0 96 -70 64 Z" fill="#4f52e0"/>
+    <!-- button -->
+    <circle cx="0" cy="2" r="9" fill="#c7c9ff"/>
+    <!-- tassel -->
+    <path d="M 0 2 L 118 8 L 118 70" fill="none" stroke="#c7c9ff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="118" cy="78" r="8" fill="#f0b429"/>
+  </g>
+
+  <!-- gamification stars -->
+  <g fill="#f0b429">
+    <path d="M 150 120 l 6 13 14 2 -10 10 3 14 -13 -7 -13 7 3 -14 -10 -10 14 -2 z" opacity="0.95"/>
+    <path d="M 470 210 l 5 10 11 2 -8 8 2 11 -10 -5 -10 5 2 -11 -8 -8 11 -2 z" opacity="0.85"/>
+  </g>
+
+  <!-- title -->
+  <text x="320" y="300" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="0.5">ClassBland</text>
+  <text x="320" y="328" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#9494a8">Plataforma educativa gamificada</text>
+</svg>
