@@ -10,10 +10,10 @@ export const perfil = {
   resumen:
     "Programador full-stack apasionado por construir aplicaciones web y herramientas con IA. Experiencia con Next.js, Python y C#.",
   ubicacion: "Tu ciudad, País",
-  email: "tucorreo@ejemplo.com",
+  email: "appstoreway301@gmail.com",
   // Deja vacío "" cualquier link que no uses
-  github: "https://github.com/tuusuario",
-  linkedin: "https://www.linkedin.com/in/tuusuario",
+  github: "https://github.com/appstoreway301",
+  linkedin: "https://www.linkedin.com/in/sergio-bland-a40a12303",
   // Ruta a tu CV en PDF (ponlo en la carpeta /public). Deja "" si aún no tienes.
   cv: "",
 };
@@ -46,7 +46,7 @@ export const proyectos = [
     descripcion:
       "Plataforma de gestión escolar en tiempo real con autenticación, roles de usuario y comunicación en vivo. Incluye panel de administración, base de datos con Prisma y notificaciones por WebSockets.",
     tecnologias: ["Next.js", "TypeScript", "Prisma", "WebSockets", "Tailwind"],
-    repo: "https://github.com/tuusuario/classbland", // cámbialo por tu repo real
+    repo: "https://github.com/appstoreway301/classbland",
     demo: "", // link a la demo en vivo si la tienes
     imagen: "", // ej: "/classbland.png"
     destacado: true,
@@ -56,7 +56,7 @@ export const proyectos = [
     descripcion:
       "Asistente conversacional integrado con WhatsApp (Meta API) y modelos de lenguaje locales (Ollama). Gestiona conversaciones, catálogo de productos y persistencia en SQLite.",
     tecnologias: ["Python", "Ollama", "Meta API", "SQLite"],
-    repo: "https://github.com/tuusuario/chatbot",
+    repo: "https://github.com/appstoreway301/chatbot-ia",
     demo: "",
     imagen: "",
     destacado: true,
@@ -66,7 +66,7 @@ export const proyectos = [
     descripcion:
       "Describe aquí tu aplicación de escritorio o backend en C#. Explica qué problema resuelve y qué tecnologías usaste.",
     tecnologias: ["C#", ".NET"],
-    repo: "https://github.com/tuusuario/proyecto-csharp",
+    repo: "https://github.com/appstoreway301/proyecto-csharp",
     demo: "",
     imagen: "",
     destacado: false,
