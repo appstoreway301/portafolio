@@ -9,7 +9,7 @@ export const perfil = {
   // Una frase corta que te describa (aparece debajo de tu nombre)
   resumen:
     "Programador full-stack apasionado por construir aplicaciones web y herramientas con IA. Experiencia con Next.js, Python y C#.",
-  ubicacion: "Tu ciudad, País",
+  ubicacion: "Puerto peñasco, Mexico",
   email: "appstoreway301@gmail.com",
   // Deja vacío "" cualquier link que no uses
   github: "https://github.com/appstoreway301",
@@ -60,15 +60,5 @@ export const proyectos = [
     demo: "",
     imagen: "",
     destacado: true,
-  },
-  {
-    nombre: "Proyecto en C#",
-    descripcion:
-      "Describe aquí tu aplicación de escritorio o backend en C#. Explica qué problema resuelve y qué tecnologías usaste.",
-    tecnologias: ["C#", ".NET"],
-    repo: "https://github.com/appstoreway301/proyecto-csharp",
-    demo: "",
-    imagen: "",
-    destacado: false,
   },
 ];
