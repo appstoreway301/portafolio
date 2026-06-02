@@ -4,7 +4,7 @@
 // ============================================================
 
 export const perfil = {
-  nombre: "Tu Nombre",
+  nombre: "Sergio Bland",
   titulo: "Desarrollador de Software",
   // Una frase corta que te describa (aparece debajo de tu nombre)
   resumen:
