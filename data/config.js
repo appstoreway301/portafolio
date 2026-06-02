@@ -42,6 +42,16 @@ export const habilidades = [
 // Pon una imagen en /public (ej: /classbland.png) y referénciala en "imagen".
 export const proyectos = [
   {
+    nombre: "StoreApp — Tienda Online",
+    descripcion:
+      "Tienda online full-stack con pasarela de pagos real (Stripe), autenticación con JWT, panel de productos, subida de imágenes y envío de correos. Backend en Express + PostgreSQL con medidas de seguridad (Helmet, rate limiting y validación con Zod).",
+    tecnologias: ["React", "Express", "PostgreSQL", "Stripe", "JWT", "Vite"],
+    repo: "https://github.com/appstoreway301/StoreApp",
+    demo: "",
+    imagen: "",
+    destacado: true,
+  },
+  {
     nombre: "ClassBland",
     descripcion:
       "Plataforma de gestión escolar en tiempo real con autenticación, roles de usuario y comunicación en vivo. Incluye panel de administración, base de datos con Prisma y notificaciones por WebSockets.",
@@ -54,8 +64,8 @@ export const proyectos = [
   {
     nombre: "ChatBot con IA",
     descripcion:
-      "Asistente conversacional integrado con WhatsApp (Meta API) y modelos de lenguaje locales (Ollama). Gestiona conversaciones, catálogo de productos y persistencia en SQLite.",
-    tecnologias: ["Python", "Ollama", "Meta API", "SQLite"],
+      "Asistente conversacional para Facebook Messenger (Meta API) con IA local (Ollama + Qwen 2.5). Reconoce imágenes por visión, detecta intervención humana y gestiona catálogo de productos con persistencia en SQLite.",
+    tecnologias: ["Python", "Ollama", "Meta API", "Visión IA", "SQLite"],
     repo: "https://github.com/appstoreway301/chatbot-ia",
     demo: "",
     imagen: "",
